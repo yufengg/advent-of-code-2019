@@ -21,6 +21,8 @@ class Solution:
         if mass == 0: return 0
 
         fuel = math.floor(mass/3) - 2
+        
+        # if part1, return fuel now
 
         if fuel < 0:
           return 0
